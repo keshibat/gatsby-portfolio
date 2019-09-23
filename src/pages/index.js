@@ -35,7 +35,6 @@ const IndexPage = () => (
             </h2>
             <p>I have made few things check it out.</p>
           </header>
-
           <footer>
             <Scroll type="id" element={'project'}>
               <a href="#project" className="button"></a>
@@ -138,21 +137,51 @@ const IndexPage = () => (
           <header>
             <h2>About Me</h2>
           </header>
-
-          <a href="/#" className="image featured">
+          <a href="#about" className="image featured">
             <img src={pic8} alt="" />
           </a>
-
-          <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
-          </p>
         </div>
+        <p>
+          Work History I started my career as a Desktop Engineer in March 2014s
+          which allowed me to operate on Windows and Unix platforms. In
+          September 2014, I was involved in a large-scale, high-demanding
+          software release as a QA tester of the very first online charging
+          system in Japan that now has 10 million subscribers with NOKIA. This
+          online charging software system, developed by REDKNEE India and
+          Germany and NOKIA Japan, needed testing for meeting quality
+          requirements and KDDI Japan carrier’s design requirements. To do the
+          testing from the Nokia’s side, I learned the testing know-how from the
+          development engineer and successfully implemented my tasks. During
+          that hands-on experience, I became very familiar with the Unix
+          operation, bash, and Windows server. I investigated the problems based
+          on the log and analyzed the packet using Wireshark. I also learned
+          testing procedures from the German and Indian test engineers through
+          which experience I became a better communicator, able to discuss
+          roadblocks and alternative solutions with my colleagues on the
+          international team. In August 2015, when OCS went live, I was promoted
+          to the role of Level 2 Customer Support Engineer. I was responsible
+          for solving tickets from our customers in a timely manner. Being a
+          Level 2 engineer in the environment where quality control standards
+          were very high, taught me the best way to investigate customer
+          problems, test and reproduce issues in the lab and apply fixed
+          procedures on the online software which could potentially impact 10
+          million subscribers. I have experienced firsthand the commercial
+          system upgrade and realized how a live system should operate, being
+          extremely careful executing some of the commands. I was also involved
+          in developing the upgrade procedure documentation for the commercial
+          use and the on-site upgrades. Education After high shool, I studied
+          film production at De Anza College which located in the Bay Area,
+          California. I completed Intro to Programming Nanodegree at Udacity in
+          2016 and completed Full Stack Web Developer Nanodegree in 2018.
+          Currently, I started 6 months Programming BootCamp at Coder Academy in
+          Sydney. I love. I love my spare spend my time in the ocean and get
+          salty. I love to play backgammon with frinds while drinking a mocha at
+          cafe. I had a blast time in New Zealand and Australia (working
+          holiday) where I could surf one of the best surf spot in the world. I
+          also like the part that constatnly try to improve my surf skills.
+          Surfing is hard so as Programming. I will never master everthing in my
+          life time but that dones't stop me to keep improving.
+        </p>
       </section>
 
       <section id="contact" className="four">

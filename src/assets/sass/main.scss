@@ -593,11 +593,11 @@
 			text-align: center;
 
 			a {
-				color: #41484c;
+				color: #61dafb;
 				@include vendor('transition', 'color 0.35s ease-in-out');
 
 				&:hover {
-					color: #fff;
+					color: #E10098;
 				}
 			}
 		}

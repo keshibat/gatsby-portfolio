@@ -15,7 +15,7 @@ import Scroll from '../components/Scroll';
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
-  { id: 'portfolio', name: 'Portfolio', icon: 'fa-th' },
+  { id: 'project', name: 'Project', icon: 'fa-th' },
   { id: 'about', name: 'About Me', icon: 'fa-user' },
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
@@ -29,88 +29,103 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
+              Hello, I'm <strong>Kensuke Shibata</strong>
               <br />
-              Web developer
+              Full-Stack Web developer
             </h2>
             <p>I have made few things check it out.</p>
           </header>
 
           <footer>
-            <Scroll type="id" element={'portfolio'}>
-              <a href="#portfolio" className="button">
-                Show me
-              </a>
+            <Scroll type="id" element={'project'}>
+              <a href="#project" className="button"></a>
             </Scroll>
           </footer>
         </div>
       </section>
 
-      <section id="portfolio" className="two">
+      <section id="project" className="two">
         <div className="container">
           <header>
-            <h2>Portfolio</h2>
+            <h2>Project</h2>
           </header>
-
-          <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
-          </p>
 
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  target="_blank"
+                  href="https://github.com/keshibat/Fill_in_blank_quiz"
+                  className="image fit"
+                >
                   <img src={pic2} alt="" />
                 </a>
                 <header>
-                  <h3>Ipsum Feugiat</h3>
+                  <h3>Seinfeld Quiz</h3>
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  target="_blank"
+                  href="https://github.com/keshibat/Logs-Analysis"
+                  className="image fit"
+                >
                   <img src={pic3} alt="" />
                 </a>
                 <header>
-                  <h3>Rhoncus Semper</h3>
+                  <h3>Logs Analysis</h3>
                 </header>
               </article>
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  target="_blank"
+                  href="https://github.com/keshibat/Item_Catalog"
+                  className="image fit"
+                >
                   <img src={pic4} alt="" />
                 </a>
                 <header>
-                  <h3>Magna Nullam</h3>
+                  <h3>CRUD Clothing Item Calatog</h3>
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  target="_blank"
+                  href="https://github.com/keshibat/dogtrain_react"
+                  className="image fit"
+                >
                   <img src={pic5} alt="" />
                 </a>
                 <header>
-                  <h3>Natoque Vitae</h3>
+                  <h3>Dog Train WebSite</h3>
                 </header>
               </article>
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  target="_blank"
+                  href="https://github.com/keshibat/LinuxServerConfiguration"
+                  className="image fit"
+                >
                   <img src={pic6} alt="" />
                 </a>
                 <header>
-                  <h3>Dolor Penatibus</h3>
+                  <h3>Linux Server Configuration</h3>
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  target="_blank"
+                  href="https://github.com/keshibat/Apollo_GraphQL-React-Dashboard"
+                  className="image fit"
+                >
                   <img src={pic7} alt="" />
                 </a>
                 <header>
-                  <h3>Orci Convallis</h3>
+                  <h3>GOFAR Dashboard</h3>
                 </header>
               </article>
             </div>

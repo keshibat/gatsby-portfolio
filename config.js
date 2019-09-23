@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Prologue', // <title>
+  siteTitle: 'keshibat Portfolio', // <title>
   manifestName: 'Prologue',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -8,29 +8,29 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-prologue/`, // This path is subpath of your hosting https://domain/portfolio
-  authorName: 'Anubhav',
+  authorName: 'Kensuke',
   heading: 'Web Developer',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/keshibat',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/KKeshibat',
     },
     {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fa-medium',
+      name: 'Medium',
+      url: 'https://medium.com/@kensukeshibata',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:kensukeshibata@gmail.com',
     },
   ],
 };

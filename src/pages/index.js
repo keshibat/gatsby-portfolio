@@ -37,7 +37,9 @@ const IndexPage = () => (
           </header>
           <footer>
             <Scroll type="id" element={'project'}>
-              <a href="#project" className="button"></a>
+              <a href="#project" className="button">
+                Project
+              </a>
             </Scroll>
           </footer>
         </div>
@@ -193,9 +195,8 @@ const IndexPage = () => (
           <span>New Zealand</span> and <span>Australia</span> (working holiday)
           where I could <span>surf</span> one of the best surf spot in the
           world. I also like the part that constatnly try to improve my surf
-          skills. Surfing is hard so as <span>Programming</span>. I will never
-          master everthing in my life time but that dones't stop me to{' '}
-          <span>keep improving</span>.
+          skills. Surfing is hard so as <span>Programming</span>. That makes me
+          want to <span>keep inproving</span> day by day in my life time.
         </p>
       </section>
 

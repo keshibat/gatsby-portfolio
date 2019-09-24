@@ -56,6 +56,7 @@ const IndexPage = () => (
               <article className="item">
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/keshibat/Fill_in_blank_quiz"
                   className="image fit"
                 >
@@ -68,6 +69,7 @@ const IndexPage = () => (
               <article className="item">
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/keshibat/Logs-Analysis"
                   className="image fit"
                 >
@@ -82,6 +84,7 @@ const IndexPage = () => (
               <article className="item">
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/keshibat/Item_Catalog"
                   className="image fit"
                 >
@@ -94,6 +97,7 @@ const IndexPage = () => (
               <article className="item">
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/keshibat/dogtrain_react"
                   className="image fit"
                 >
@@ -108,6 +112,7 @@ const IndexPage = () => (
               <article className="item">
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/keshibat/LinuxServerConfiguration"
                   className="image fit"
                 >
@@ -120,6 +125,7 @@ const IndexPage = () => (
               <article className="item">
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/keshibat/Apollo_GraphQL-React-Dashboard"
                   className="image fit"
                 >
